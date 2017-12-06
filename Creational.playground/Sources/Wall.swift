@@ -1,3 +1,5 @@
-public class Wall {
-    
+open class Wall {
+    open init() {
+        
+    }
 }

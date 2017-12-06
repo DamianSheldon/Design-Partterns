@@ -1,0 +1,3 @@
+class RoomWithABomd: Room {
+    
+}

@@ -1,0 +1,3 @@
+class DoorNeedingSpell: Door {
+    
+}

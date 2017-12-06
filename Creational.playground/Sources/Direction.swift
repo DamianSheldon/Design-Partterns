@@ -1,4 +1,4 @@
-public enum Direction {
+open enum Direction {
     case North
     case South
     case West

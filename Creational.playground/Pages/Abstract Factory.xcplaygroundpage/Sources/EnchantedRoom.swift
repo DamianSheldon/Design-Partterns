@@ -1,0 +1,3 @@
+class EnchantedRoom: Room {
+    
+}

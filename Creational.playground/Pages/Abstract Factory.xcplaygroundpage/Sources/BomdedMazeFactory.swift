@@ -1,0 +1,3 @@
+class BomdedMazeFactory: MazeFactory {
+    
+}
