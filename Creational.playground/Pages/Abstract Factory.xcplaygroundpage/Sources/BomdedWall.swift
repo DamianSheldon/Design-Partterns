@@ -1,3 +1,0 @@
-class BomdedWall: Wall {
-    
-}

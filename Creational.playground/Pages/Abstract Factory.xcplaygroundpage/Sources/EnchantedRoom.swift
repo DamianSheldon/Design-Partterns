@@ -1,3 +1,0 @@
-class EnchantedRoom: Room {
-    
-}

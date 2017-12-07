@@ -1,5 +1,5 @@
-class MazeGame {
-    func createMaze(factory: MazeFactory) -> Maze {
+open class MazeGame {
+    open func createMaze(factory: MazeFactory) -> Maze {
         let aMaze = factory.makeMaze()
         
         let r1 = factory.makeRoom(no: 1)
