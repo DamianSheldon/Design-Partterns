@@ -67,10 +67,4 @@ class AbstractFactoryTests: XCTestCase {
         XCTAssertTrue(maze.roomNo(1) is EnchantedRoom, "Enchanted maze's room must be EnchantedRoom!")
         XCTAssertTrue(maze.roomNo(2) is EnchantedRoom, "Enchanted maze's room must be EnchantedRoom!")
     }
-    
-    func isValidMaze(_ maze: Maze) -> Void {
-        XCTAssertNotNil(maze, "maze must be not nil!")
-        XCTAssertNotNil(maze.roomNo(1), "room 1 must be not nil")
-        XCTAssertNotNil(maze.roomNo(2), "room 2 must be not nil")
-    }
 }
