@@ -24,4 +24,15 @@ open class MazeGame {
         
         return aMaze
     }
+    
+    open func createMaze(builder: MazeBuilder) -> Maze? {
+        builder.buildMaze()
+        
+        builder.buildRoom(1)
+        builder.buildRoom(2)
+        
+        builder.buildDoor(roomFrom: 1, roomTo: 2)
+        
+        return builder.getMaze()
+    }
 }

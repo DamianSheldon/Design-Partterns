@@ -1,6 +1,6 @@
 open class Maze {
     
-    open init() {
+    public init() {
         
     }
     

@@ -1,5 +1,5 @@
 open class BomdedMazeFactory: MazeFactory {
-    open func makeRoom(no: Int) -> Room {
+    open override func makeRoom(no: Int) -> Room {
         return RoomWithABomd(roomNo: no)
     }
     

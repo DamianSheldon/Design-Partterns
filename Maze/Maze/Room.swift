@@ -6,7 +6,7 @@ open class Room {
     var westWall : Wall?
     var eastWall : Wall?
     
-    open init(roomNo: Int) {
+    public init(roomNo: Int) {
         self.roomNo = roomNo
     }
     

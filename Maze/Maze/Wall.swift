@@ -1,5 +1,5 @@
 open class Wall {
-    open init() {
+    public init() {
         
     }
 }
