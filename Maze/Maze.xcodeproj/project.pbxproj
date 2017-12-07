@@ -43,6 +43,8 @@
 		5813E6371FD917DE00384FFD /* StandardMazeBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5813E6251FD9165300384FFD /* StandardMazeBuilder.swift */; };
 		5813E6381FD917E500384FFD /* CountingMazeBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5813E6271FD916DF00384FFD /* CountingMazeBuilder.swift */; };
 		5813E63A1FD91D2300384FFD /* BuilderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5813E6391FD91D2300384FFD /* BuilderTests.swift */; };
+		5813E63E1FD9259300384FFD /* ExtensibleMazeFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5813E63D1FD9259300384FFD /* ExtensibleMazeFactory.swift */; };
+		5813E63F1FD930C800384FFD /* ExtensibleMazeFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5813E63D1FD9259300384FFD /* ExtensibleMazeFactory.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -79,6 +81,7 @@
 		5813E6251FD9165300384FFD /* StandardMazeBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StandardMazeBuilder.swift; sourceTree = "<group>"; };
 		5813E6271FD916DF00384FFD /* CountingMazeBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountingMazeBuilder.swift; sourceTree = "<group>"; };
 		5813E6391FD91D2300384FFD /* BuilderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuilderTests.swift; sourceTree = "<group>"; };
+		5813E63D1FD9259300384FFD /* ExtensibleMazeFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensibleMazeFactory.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -155,6 +158,7 @@
 			children = (
 				5813E60A1FD8EED700384FFD /* BomdedMazeFactory.swift */,
 				5813E6131FD8EED700384FFD /* EnchantedMazeFactory.swift */,
+				5813E63D1FD9259300384FFD /* ExtensibleMazeFactory.swift */,
 			);
 			path = "Abstract Factory";
 			sourceTree = "<group>";
@@ -283,6 +287,7 @@
 				5813E6241FD915EE00384FFD /* MazeBuilder.swift in Sources */,
 				5813E6171FD8EED700384FFD /* BomdedMazeFactory.swift in Sources */,
 				5813E6191FD8EED700384FFD /* MazeFactory.swift in Sources */,
+				5813E63E1FD9259300384FFD /* ExtensibleMazeFactory.swift in Sources */,
 				5813E61C1FD8EED700384FFD /* Room.swift in Sources */,
 				5813E6201FD8EED700384FFD /* EnchantedMazeFactory.swift in Sources */,
 				5813E61B1FD8EED700384FFD /* MazeGame.swift in Sources */,
@@ -316,6 +321,7 @@
 				5813E6351FD917D700384FFD /* Wall.swift in Sources */,
 				5813E62B1FD9179900384FFD /* Direction.swift in Sources */,
 				5813E62D1FD9179F00384FFD /* DoorNeedingSpell.swift in Sources */,
+				5813E63F1FD930C800384FFD /* ExtensibleMazeFactory.swift in Sources */,
 				5813E63A1FD91D2300384FFD /* BuilderTests.swift in Sources */,
 				5813E6321FD917AE00384FFD /* MazeGame.swift in Sources */,
 				5813E6311FD917AB00384FFD /* MazeFactory.swift in Sources */,

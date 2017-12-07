@@ -17,4 +17,12 @@ open class Room {
     open func setDoor(_ door: Door, onDirection direction: Direction) -> Void {
         
     }
+    
+    open func clone() -> Room {
+        return Room(roomNo: self.roomNo)
+    }
+    
+    public func initialize(roomNo: Int) {
+        self.roomNo = roomNo
+    }
 }

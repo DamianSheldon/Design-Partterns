@@ -5,7 +5,7 @@ open class MazeGame {
         let r1 = factory.makeRoom(no: 1)
         let r2 = factory.makeRoom(no: 2)
         
-        let door = Door(roomFrom: r1, roomTo: r2)
+        let door = factory.makeDoor(fromRoom: r1, toRoom: r2)
         
         r1.setSide(direction: .North, wall: factory.makeWall())
         r1.setSide(direction: .South, wall: factory.makeWall())
