@@ -13,6 +13,10 @@
 		5813E6691FDA31D500384FFD /* Shape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5813E6681FDA31D500384FFD /* Shape.swift */; };
 		5813E66B1FDA367400384FFD /* TextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5813E66A1FDA367400384FFD /* TextView.swift */; };
 		5813E66D1FDA380B00384FFD /* TextShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5813E66C1FDA380B00384FFD /* TextShape.swift */; };
+		58DAC2631FDA8E350078F3B7 /* Window.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58DAC2621FDA8E350078F3B7 /* Window.swift */; };
+		58DAC2651FDA8E4A0078F3B7 /* BridgeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58DAC2641FDA8E4A0078F3B7 /* BridgeTests.swift */; };
+		58DAC2671FDA8E5A0078F3B7 /* WindowImp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58DAC2661FDA8E5A0078F3B7 /* WindowImp.swift */; };
+		58DAC2691FDA8F440078F3B7 /* WindowSystemFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58DAC2681FDA8F440078F3B7 /* WindowSystemFactory.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +39,10 @@
 		5813E6681FDA31D500384FFD /* Shape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Shape.swift; path = ../Shape.swift; sourceTree = "<group>"; };
 		5813E66A1FDA367400384FFD /* TextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextView.swift; sourceTree = "<group>"; };
 		5813E66C1FDA380B00384FFD /* TextShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextShape.swift; sourceTree = "<group>"; };
+		58DAC2621FDA8E350078F3B7 /* Window.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Window.swift; sourceTree = "<group>"; };
+		58DAC2641FDA8E4A0078F3B7 /* BridgeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BridgeTests.swift; sourceTree = "<group>"; };
+		58DAC2661FDA8E5A0078F3B7 /* WindowImp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WindowImp.swift; sourceTree = "<group>"; };
+		58DAC2681FDA8F440078F3B7 /* WindowSystemFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WindowSystemFactory.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +88,7 @@
 				5813E6511FDA318000384FFD /* Structural.h */,
 				5813E6521FDA318000384FFD /* Info.plist */,
 				5813E66E1FDA68AE00384FFD /* Adapter */,
+				58DAC2611FDA8E0E0078F3B7 /* Bridge */,
 			);
 			path = Structural;
 			sourceTree = "<group>";
@@ -89,6 +98,7 @@
 			children = (
 				5813E65C1FDA318000384FFD /* AdapterTests.swift */,
 				5813E65E1FDA318000384FFD /* Info.plist */,
+				58DAC2641FDA8E4A0078F3B7 /* BridgeTests.swift */,
 			);
 			path = StructuralTests;
 			sourceTree = "<group>";
@@ -101,6 +111,16 @@
 				5813E66C1FDA380B00384FFD /* TextShape.swift */,
 			);
 			path = Adapter;
+			sourceTree = "<group>";
+		};
+		58DAC2611FDA8E0E0078F3B7 /* Bridge */ = {
+			isa = PBXGroup;
+			children = (
+				58DAC2621FDA8E350078F3B7 /* Window.swift */,
+				58DAC2661FDA8E5A0078F3B7 /* WindowImp.swift */,
+				58DAC2681FDA8F440078F3B7 /* WindowSystemFactory.swift */,
+			);
+			path = Bridge;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -214,9 +234,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				58DAC2671FDA8E5A0078F3B7 /* WindowImp.swift in Sources */,
 				5813E6691FDA31D500384FFD /* Shape.swift in Sources */,
 				5813E66D1FDA380B00384FFD /* TextShape.swift in Sources */,
 				5813E66B1FDA367400384FFD /* TextView.swift in Sources */,
+				58DAC2631FDA8E350078F3B7 /* Window.swift in Sources */,
+				58DAC2691FDA8F440078F3B7 /* WindowSystemFactory.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -224,6 +247,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				58DAC2651FDA8E4A0078F3B7 /* BridgeTests.swift in Sources */,
 				5813E65D1FDA318000384FFD /* AdapterTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
