@@ -7,7 +7,7 @@
 //
 
 import XCTest
-@testable import Maze
+@testable import Creational
 
 class AbstractFactoryTests: XCTestCase {
     
