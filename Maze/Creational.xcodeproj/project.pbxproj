@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5813E5F91FD8ED6E00384FFD /* Maze.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5813E5EF1FD8ED6E00384FFD /* Maze.framework */; };
+		5813E5F91FD8ED6E00384FFD /* Creational.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5813E5EF1FD8ED6E00384FFD /* Creational.framework */; };
 		5813E5FE1FD8ED6E00384FFD /* AbstractFactoryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5813E5FD1FD8ED6E00384FFD /* AbstractFactoryTests.swift */; };
 		5813E6001FD8ED6E00384FFD /* Maze.h in Headers */ = {isa = PBXBuildFile; fileRef = 5813E5F21FD8ED6E00384FFD /* Maze.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5813E6161FD8EED700384FFD /* EnchantedRoom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5813E6091FD8EED700384FFD /* EnchantedRoom.swift */; };
@@ -60,10 +60,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		5813E5EF1FD8ED6E00384FFD /* Maze.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Maze.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5813E5EF1FD8ED6E00384FFD /* Creational.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Creational.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5813E5F21FD8ED6E00384FFD /* Maze.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Maze.h; sourceTree = "<group>"; };
 		5813E5F31FD8ED6E00384FFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5813E5F81FD8ED6E00384FFD /* MazeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MazeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5813E5F81FD8ED6E00384FFD /* CreationalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CreationalTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5813E5FD1FD8ED6E00384FFD /* AbstractFactoryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbstractFactoryTests.swift; sourceTree = "<group>"; };
 		5813E5FF1FD8ED6E00384FFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5813E6091FD8EED700384FFD /* EnchantedRoom.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EnchantedRoom.swift; sourceTree = "<group>"; };
@@ -100,7 +100,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5813E5F91FD8ED6E00384FFD /* Maze.framework in Frameworks */,
+				5813E5F91FD8ED6E00384FFD /* Creational.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,8 +119,8 @@
 		5813E5F01FD8ED6E00384FFD /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5813E5EF1FD8ED6E00384FFD /* Maze.framework */,
-				5813E5F81FD8ED6E00384FFD /* MazeTests.xctest */,
+				5813E5EF1FD8ED6E00384FFD /* Creational.framework */,
+				5813E5F81FD8ED6E00384FFD /* CreationalTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -193,9 +193,9 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		5813E5EE1FD8ED6D00384FFD /* Maze */ = {
+		5813E5EE1FD8ED6D00384FFD /* Creational */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5813E6031FD8ED6E00384FFD /* Build configuration list for PBXNativeTarget "Maze" */;
+			buildConfigurationList = 5813E6031FD8ED6E00384FFD /* Build configuration list for PBXNativeTarget "Creational" */;
 			buildPhases = (
 				5813E5EA1FD8ED6D00384FFD /* Sources */,
 				5813E5EB1FD8ED6D00384FFD /* Frameworks */,
@@ -206,14 +206,14 @@
 			);
 			dependencies = (
 			);
-			name = Maze;
+			name = Creational;
 			productName = Maze;
-			productReference = 5813E5EF1FD8ED6E00384FFD /* Maze.framework */;
+			productReference = 5813E5EF1FD8ED6E00384FFD /* Creational.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		5813E5F71FD8ED6E00384FFD /* MazeTests */ = {
+		5813E5F71FD8ED6E00384FFD /* CreationalTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5813E6061FD8ED6E00384FFD /* Build configuration list for PBXNativeTarget "MazeTests" */;
+			buildConfigurationList = 5813E6061FD8ED6E00384FFD /* Build configuration list for PBXNativeTarget "CreationalTests" */;
 			buildPhases = (
 				5813E5F41FD8ED6E00384FFD /* Sources */,
 				5813E5F51FD8ED6E00384FFD /* Frameworks */,
@@ -224,9 +224,9 @@
 			dependencies = (
 				5813E5FB1FD8ED6E00384FFD /* PBXTargetDependency */,
 			);
-			name = MazeTests;
+			name = CreationalTests;
 			productName = MazeTests;
-			productReference = 5813E5F81FD8ED6E00384FFD /* MazeTests.xctest */;
+			productReference = 5813E5F81FD8ED6E00384FFD /* CreationalTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -250,7 +250,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 5813E5E91FD8ED6D00384FFD /* Build configuration list for PBXProject "Maze" */;
+			buildConfigurationList = 5813E5E91FD8ED6D00384FFD /* Build configuration list for PBXProject "Creational" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -262,8 +262,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				5813E5EE1FD8ED6D00384FFD /* Maze */,
-				5813E5F71FD8ED6E00384FFD /* MazeTests */,
+				5813E5EE1FD8ED6D00384FFD /* Creational */,
+				5813E5F71FD8ED6E00384FFD /* CreationalTests */,
 			);
 		};
 /* End PBXProject section */
@@ -343,7 +343,7 @@
 /* Begin PBXTargetDependency section */
 		5813E5FB1FD8ED6E00384FFD /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 5813E5EE1FD8ED6D00384FFD /* Maze */;
+			target = 5813E5EE1FD8ED6D00384FFD /* Creational */;
 			targetProxy = 5813E5FA1FD8ED6E00384FFD /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -536,7 +536,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		5813E5E91FD8ED6D00384FFD /* Build configuration list for PBXProject "Maze" */ = {
+		5813E5E91FD8ED6D00384FFD /* Build configuration list for PBXProject "Creational" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5813E6011FD8ED6E00384FFD /* Debug */,
@@ -545,7 +545,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5813E6031FD8ED6E00384FFD /* Build configuration list for PBXNativeTarget "Maze" */ = {
+		5813E6031FD8ED6E00384FFD /* Build configuration list for PBXNativeTarget "Creational" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5813E6041FD8ED6E00384FFD /* Debug */,
@@ -554,7 +554,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5813E6061FD8ED6E00384FFD /* Build configuration list for PBXNativeTarget "MazeTests" */ = {
+		5813E6061FD8ED6E00384FFD /* Build configuration list for PBXNativeTarget "CreationalTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5813E6071FD8ED6E00384FFD /* Debug */,
