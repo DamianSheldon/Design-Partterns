@@ -8,7 +8,23 @@
 
 open class WindowImp {
     
-    open static func getWindowImp() -> WindowImp {
-        return WindowSystemFactory.instance.makeWindowImp()
+    open func impSetOrigin(_ origin: CGPoint) -> Void {
+        
+    }
+    
+    open func impSetExtent(_ extent: CGRect) -> Void {
+        
+    }
+    
+    open func deviceRect(_ rect: CGRect) -> Void {
+        
+    }
+    
+    open func deviceText(_ text: String, atPoint p: CGPoint) -> Void {
+        
+    }
+    
+    open func deviceBitmap(_ data: Data, atPoint p: CGPoint, inRect rect: CGRect) -> Void {
+        
     }
 }

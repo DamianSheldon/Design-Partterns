@@ -17,6 +17,10 @@
 		58DAC2651FDA8E4A0078F3B7 /* BridgeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58DAC2641FDA8E4A0078F3B7 /* BridgeTests.swift */; };
 		58DAC2671FDA8E5A0078F3B7 /* WindowImp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58DAC2661FDA8E5A0078F3B7 /* WindowImp.swift */; };
 		58DAC2691FDA8F440078F3B7 /* WindowSystemFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58DAC2681FDA8F440078F3B7 /* WindowSystemFactory.swift */; };
+		58DAC26B1FDE15080078F3B7 /* ApplicationWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58DAC26A1FDE15080078F3B7 /* ApplicationWindow.swift */; };
+		58DAC26D1FDE15280078F3B7 /* IconWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58DAC26C1FDE15280078F3B7 /* IconWindow.swift */; };
+		58DAC26F1FDE15BC0078F3B7 /* XWindowImp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58DAC26E1FDE15BC0078F3B7 /* XWindowImp.swift */; };
+		58DAC2711FDE15D20078F3B7 /* PMWindowImp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58DAC2701FDE15D20078F3B7 /* PMWindowImp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +47,10 @@
 		58DAC2641FDA8E4A0078F3B7 /* BridgeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BridgeTests.swift; sourceTree = "<group>"; };
 		58DAC2661FDA8E5A0078F3B7 /* WindowImp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WindowImp.swift; sourceTree = "<group>"; };
 		58DAC2681FDA8F440078F3B7 /* WindowSystemFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WindowSystemFactory.swift; sourceTree = "<group>"; };
+		58DAC26A1FDE15080078F3B7 /* ApplicationWindow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplicationWindow.swift; sourceTree = "<group>"; };
+		58DAC26C1FDE15280078F3B7 /* IconWindow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconWindow.swift; sourceTree = "<group>"; };
+		58DAC26E1FDE15BC0078F3B7 /* XWindowImp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XWindowImp.swift; sourceTree = "<group>"; };
+		58DAC2701FDE15D20078F3B7 /* PMWindowImp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PMWindowImp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,7 +125,11 @@
 			isa = PBXGroup;
 			children = (
 				58DAC2621FDA8E350078F3B7 /* Window.swift */,
+				58DAC26A1FDE15080078F3B7 /* ApplicationWindow.swift */,
+				58DAC26C1FDE15280078F3B7 /* IconWindow.swift */,
 				58DAC2661FDA8E5A0078F3B7 /* WindowImp.swift */,
+				58DAC26E1FDE15BC0078F3B7 /* XWindowImp.swift */,
+				58DAC2701FDE15D20078F3B7 /* PMWindowImp.swift */,
 				58DAC2681FDA8F440078F3B7 /* WindowSystemFactory.swift */,
 			);
 			path = Bridge;
@@ -234,12 +246,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				58DAC26B1FDE15080078F3B7 /* ApplicationWindow.swift in Sources */,
 				58DAC2671FDA8E5A0078F3B7 /* WindowImp.swift in Sources */,
 				5813E6691FDA31D500384FFD /* Shape.swift in Sources */,
+				58DAC2711FDE15D20078F3B7 /* PMWindowImp.swift in Sources */,
 				5813E66D1FDA380B00384FFD /* TextShape.swift in Sources */,
+				58DAC26D1FDE15280078F3B7 /* IconWindow.swift in Sources */,
 				5813E66B1FDA367400384FFD /* TextView.swift in Sources */,
 				58DAC2631FDA8E350078F3B7 /* Window.swift in Sources */,
 				58DAC2691FDA8F440078F3B7 /* WindowSystemFactory.swift in Sources */,
+				58DAC26F1FDE15BC0078F3B7 /* XWindowImp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

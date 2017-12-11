@@ -6,22 +6,22 @@
 //  Copyright © 2017 Meiliang Dong. All rights reserved.
 //
 
-import Foundation
+import UIKit
 
 public struct WindowSystemFactory {
     public static let instance = WindowSystemFactory()
     
     public func makeWindowImp() -> WindowImp {
-        let systemName = ProcessInfo.processInfo.operatingSystemVersionString
+        let systemName = UIDevice.current.systemName
         
         var imp: WindowImp
         
         switch systemName {
-        case "X Window":
-            imp = WindowImp()
+        case "iOS":
+            imp = XWindowImp()
         
         case "Presentation Manager":
-            imp = WindowImp()
+            imp = PMWindowImp()
             
         default:
             imp = WindowImp()
