@@ -21,6 +21,16 @@
 		58DAC26D1FDE15280078F3B7 /* IconWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58DAC26C1FDE15280078F3B7 /* IconWindow.swift */; };
 		58DAC26F1FDE15BC0078F3B7 /* XWindowImp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58DAC26E1FDE15BC0078F3B7 /* XWindowImp.swift */; };
 		58DAC2711FDE15D20078F3B7 /* PMWindowImp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58DAC2701FDE15D20078F3B7 /* PMWindowImp.swift */; };
+		58DAC2741FDE610C0078F3B7 /* Equipment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58DAC2731FDE610C0078F3B7 /* Equipment.swift */; };
+		58DAC2761FDE69150078F3B7 /* FloppyDisk.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58DAC2751FDE69150078F3B7 /* FloppyDisk.swift */; };
+		58DAC2781FDE695B0078F3B7 /* CompositeEquipment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58DAC2771FDE695B0078F3B7 /* CompositeEquipment.swift */; };
+		58DAC27A1FDE6B890078F3B7 /* Chassis.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58DAC2791FDE6B890078F3B7 /* Chassis.swift */; };
+		58DAC27C1FDE6BEA0078F3B7 /* Cabinet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58DAC27B1FDE6BEA0078F3B7 /* Cabinet.swift */; };
+		58DAC27E1FDE6BF30078F3B7 /* Bus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58DAC27D1FDE6BF30078F3B7 /* Bus.swift */; };
+		58DAC2801FDE6C180078F3B7 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58DAC27F1FDE6C180078F3B7 /* Card.swift */; };
+		58DAC2821FDE6C670078F3B7 /* CompositeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58DAC2811FDE6C670078F3B7 /* CompositeTests.swift */; };
+		58DAC2841FDE705E0078F3B7 /* Iterator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58DAC2831FDE705E0078F3B7 /* Iterator.swift */; };
+		58DAC2861FDE74A80078F3B7 /* ListIterator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58DAC2851FDE74A80078F3B7 /* ListIterator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +61,16 @@
 		58DAC26C1FDE15280078F3B7 /* IconWindow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconWindow.swift; sourceTree = "<group>"; };
 		58DAC26E1FDE15BC0078F3B7 /* XWindowImp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XWindowImp.swift; sourceTree = "<group>"; };
 		58DAC2701FDE15D20078F3B7 /* PMWindowImp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PMWindowImp.swift; sourceTree = "<group>"; };
+		58DAC2731FDE610C0078F3B7 /* Equipment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Equipment.swift; sourceTree = "<group>"; };
+		58DAC2751FDE69150078F3B7 /* FloppyDisk.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloppyDisk.swift; sourceTree = "<group>"; };
+		58DAC2771FDE695B0078F3B7 /* CompositeEquipment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompositeEquipment.swift; sourceTree = "<group>"; };
+		58DAC2791FDE6B890078F3B7 /* Chassis.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chassis.swift; sourceTree = "<group>"; };
+		58DAC27B1FDE6BEA0078F3B7 /* Cabinet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cabinet.swift; sourceTree = "<group>"; };
+		58DAC27D1FDE6BF30078F3B7 /* Bus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bus.swift; sourceTree = "<group>"; };
+		58DAC27F1FDE6C180078F3B7 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		58DAC2811FDE6C670078F3B7 /* CompositeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompositeTests.swift; sourceTree = "<group>"; };
+		58DAC2831FDE705E0078F3B7 /* Iterator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Iterator.swift; sourceTree = "<group>"; };
+		58DAC2851FDE74A80078F3B7 /* ListIterator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListIterator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +117,7 @@
 				5813E6521FDA318000384FFD /* Info.plist */,
 				5813E66E1FDA68AE00384FFD /* Adapter */,
 				58DAC2611FDA8E0E0078F3B7 /* Bridge */,
+				58DAC2721FDE60DA0078F3B7 /* Composite */,
 			);
 			path = Structural;
 			sourceTree = "<group>";
@@ -107,6 +128,7 @@
 				5813E65C1FDA318000384FFD /* AdapterTests.swift */,
 				5813E65E1FDA318000384FFD /* Info.plist */,
 				58DAC2641FDA8E4A0078F3B7 /* BridgeTests.swift */,
+				58DAC2811FDE6C670078F3B7 /* CompositeTests.swift */,
 			);
 			path = StructuralTests;
 			sourceTree = "<group>";
@@ -133,6 +155,22 @@
 				58DAC2681FDA8F440078F3B7 /* WindowSystemFactory.swift */,
 			);
 			path = Bridge;
+			sourceTree = "<group>";
+		};
+		58DAC2721FDE60DA0078F3B7 /* Composite */ = {
+			isa = PBXGroup;
+			children = (
+				58DAC2731FDE610C0078F3B7 /* Equipment.swift */,
+				58DAC2751FDE69150078F3B7 /* FloppyDisk.swift */,
+				58DAC2771FDE695B0078F3B7 /* CompositeEquipment.swift */,
+				58DAC2791FDE6B890078F3B7 /* Chassis.swift */,
+				58DAC27B1FDE6BEA0078F3B7 /* Cabinet.swift */,
+				58DAC27D1FDE6BF30078F3B7 /* Bus.swift */,
+				58DAC27F1FDE6C180078F3B7 /* Card.swift */,
+				58DAC2831FDE705E0078F3B7 /* Iterator.swift */,
+				58DAC2851FDE74A80078F3B7 /* ListIterator.swift */,
+			);
+			path = Composite;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -246,15 +284,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				58DAC2781FDE695B0078F3B7 /* CompositeEquipment.swift in Sources */,
+				58DAC2861FDE74A80078F3B7 /* ListIterator.swift in Sources */,
+				58DAC2761FDE69150078F3B7 /* FloppyDisk.swift in Sources */,
 				58DAC26B1FDE15080078F3B7 /* ApplicationWindow.swift in Sources */,
 				58DAC2671FDA8E5A0078F3B7 /* WindowImp.swift in Sources */,
+				58DAC2741FDE610C0078F3B7 /* Equipment.swift in Sources */,
 				5813E6691FDA31D500384FFD /* Shape.swift in Sources */,
+				58DAC2801FDE6C180078F3B7 /* Card.swift in Sources */,
 				58DAC2711FDE15D20078F3B7 /* PMWindowImp.swift in Sources */,
 				5813E66D1FDA380B00384FFD /* TextShape.swift in Sources */,
 				58DAC26D1FDE15280078F3B7 /* IconWindow.swift in Sources */,
+				58DAC27C1FDE6BEA0078F3B7 /* Cabinet.swift in Sources */,
 				5813E66B1FDA367400384FFD /* TextView.swift in Sources */,
+				58DAC27A1FDE6B890078F3B7 /* Chassis.swift in Sources */,
 				58DAC2631FDA8E350078F3B7 /* Window.swift in Sources */,
 				58DAC2691FDA8F440078F3B7 /* WindowSystemFactory.swift in Sources */,
+				58DAC2841FDE705E0078F3B7 /* Iterator.swift in Sources */,
+				58DAC27E1FDE6BF30078F3B7 /* Bus.swift in Sources */,
 				58DAC26F1FDE15BC0078F3B7 /* XWindowImp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -263,6 +310,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				58DAC2821FDE6C670078F3B7 /* CompositeTests.swift in Sources */,
 				58DAC2651FDA8E4A0078F3B7 /* BridgeTests.swift in Sources */,
 				5813E65D1FDA318000384FFD /* AdapterTests.swift in Sources */,
 			);
