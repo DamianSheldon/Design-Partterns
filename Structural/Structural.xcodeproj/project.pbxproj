@@ -13,6 +13,18 @@
 		5813E6691FDA31D500384FFD /* Shape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5813E6681FDA31D500384FFD /* Shape.swift */; };
 		5813E66B1FDA367400384FFD /* TextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5813E66A1FDA367400384FFD /* TextView.swift */; };
 		5813E66D1FDA380B00384FFD /* TextShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5813E66C1FDA380B00384FFD /* TextShape.swift */; };
+		58768B8E1FDF84B600039417 /* DecoratorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58768B8D1FDF84B600039417 /* DecoratorTests.swift */; };
+		58768B901FDF850F00039417 /* VisualComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58768B8F1FDF850F00039417 /* VisualComponent.swift */; };
+		58768B921FDF860800039417 /* Decorator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58768B911FDF860800039417 /* Decorator.swift */; };
+		58768B941FDF86D500039417 /* BorderDecorator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58768B931FDF86D500039417 /* BorderDecorator.swift */; };
+		58768B961FDFAD9E00039417 /* ScrollDecorator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58768B951FDFAD9E00039417 /* ScrollDecorator.swift */; };
+		58768B981FDFADBC00039417 /* DropShadowDecorator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58768B971FDFADBC00039417 /* DropShadowDecorator.swift */; };
+		58768B9A1FDFAF3100039417 /* Stream.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58768B991FDFAF3100039417 /* Stream.swift */; };
+		58768B9C1FDFAFF400039417 /* MemoryStream.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58768B9B1FDFAFF400039417 /* MemoryStream.swift */; };
+		58768B9E1FDFAFFF00039417 /* FileStream.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58768B9D1FDFAFFF00039417 /* FileStream.swift */; };
+		58768BA01FDFB00B00039417 /* StreamDecorator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58768B9F1FDFB00B00039417 /* StreamDecorator.swift */; };
+		58768BA21FDFB02800039417 /* ASCII7Stream.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58768BA11FDFB02800039417 /* ASCII7Stream.swift */; };
+		58768BA41FDFB04500039417 /* CompressingStream.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58768BA31FDFB04500039417 /* CompressingStream.swift */; };
 		58DAC2631FDA8E350078F3B7 /* Window.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58DAC2621FDA8E350078F3B7 /* Window.swift */; };
 		58DAC2651FDA8E4A0078F3B7 /* BridgeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58DAC2641FDA8E4A0078F3B7 /* BridgeTests.swift */; };
 		58DAC2671FDA8E5A0078F3B7 /* WindowImp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58DAC2661FDA8E5A0078F3B7 /* WindowImp.swift */; };
@@ -53,6 +65,18 @@
 		5813E6681FDA31D500384FFD /* Shape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Shape.swift; path = ../Shape.swift; sourceTree = "<group>"; };
 		5813E66A1FDA367400384FFD /* TextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextView.swift; sourceTree = "<group>"; };
 		5813E66C1FDA380B00384FFD /* TextShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextShape.swift; sourceTree = "<group>"; };
+		58768B8D1FDF84B600039417 /* DecoratorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DecoratorTests.swift; sourceTree = "<group>"; };
+		58768B8F1FDF850F00039417 /* VisualComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisualComponent.swift; sourceTree = "<group>"; };
+		58768B911FDF860800039417 /* Decorator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Decorator.swift; sourceTree = "<group>"; };
+		58768B931FDF86D500039417 /* BorderDecorator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BorderDecorator.swift; sourceTree = "<group>"; };
+		58768B951FDFAD9E00039417 /* ScrollDecorator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollDecorator.swift; sourceTree = "<group>"; };
+		58768B971FDFADBC00039417 /* DropShadowDecorator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropShadowDecorator.swift; sourceTree = "<group>"; };
+		58768B991FDFAF3100039417 /* Stream.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stream.swift; sourceTree = "<group>"; };
+		58768B9B1FDFAFF400039417 /* MemoryStream.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoryStream.swift; sourceTree = "<group>"; };
+		58768B9D1FDFAFFF00039417 /* FileStream.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileStream.swift; sourceTree = "<group>"; };
+		58768B9F1FDFB00B00039417 /* StreamDecorator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StreamDecorator.swift; sourceTree = "<group>"; };
+		58768BA11FDFB02800039417 /* ASCII7Stream.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ASCII7Stream.swift; sourceTree = "<group>"; };
+		58768BA31FDFB04500039417 /* CompressingStream.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompressingStream.swift; sourceTree = "<group>"; };
 		58DAC2621FDA8E350078F3B7 /* Window.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Window.swift; sourceTree = "<group>"; };
 		58DAC2641FDA8E4A0078F3B7 /* BridgeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BridgeTests.swift; sourceTree = "<group>"; };
 		58DAC2661FDA8E5A0078F3B7 /* WindowImp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WindowImp.swift; sourceTree = "<group>"; };
@@ -118,6 +142,7 @@
 				5813E66E1FDA68AE00384FFD /* Adapter */,
 				58DAC2611FDA8E0E0078F3B7 /* Bridge */,
 				58DAC2721FDE60DA0078F3B7 /* Composite */,
+				58768B8C1FDF847D00039417 /* Decorator */,
 			);
 			path = Structural;
 			sourceTree = "<group>";
@@ -129,6 +154,7 @@
 				5813E65E1FDA318000384FFD /* Info.plist */,
 				58DAC2641FDA8E4A0078F3B7 /* BridgeTests.swift */,
 				58DAC2811FDE6C670078F3B7 /* CompositeTests.swift */,
+				58768B8D1FDF84B600039417 /* DecoratorTests.swift */,
 			);
 			path = StructuralTests;
 			sourceTree = "<group>";
@@ -141,6 +167,24 @@
 				5813E66C1FDA380B00384FFD /* TextShape.swift */,
 			);
 			path = Adapter;
+			sourceTree = "<group>";
+		};
+		58768B8C1FDF847D00039417 /* Decorator */ = {
+			isa = PBXGroup;
+			children = (
+				58768B8F1FDF850F00039417 /* VisualComponent.swift */,
+				58768B911FDF860800039417 /* Decorator.swift */,
+				58768B931FDF86D500039417 /* BorderDecorator.swift */,
+				58768B951FDFAD9E00039417 /* ScrollDecorator.swift */,
+				58768B971FDFADBC00039417 /* DropShadowDecorator.swift */,
+				58768B991FDFAF3100039417 /* Stream.swift */,
+				58768B9B1FDFAFF400039417 /* MemoryStream.swift */,
+				58768B9D1FDFAFFF00039417 /* FileStream.swift */,
+				58768B9F1FDFB00B00039417 /* StreamDecorator.swift */,
+				58768BA11FDFB02800039417 /* ASCII7Stream.swift */,
+				58768BA31FDFB04500039417 /* CompressingStream.swift */,
+			);
+			path = Decorator;
 			sourceTree = "<group>";
 		};
 		58DAC2611FDA8E0E0078F3B7 /* Bridge */ = {
@@ -286,15 +330,22 @@
 			files = (
 				58DAC2781FDE695B0078F3B7 /* CompositeEquipment.swift in Sources */,
 				58DAC2861FDE74A80078F3B7 /* ListIterator.swift in Sources */,
+				58768B981FDFADBC00039417 /* DropShadowDecorator.swift in Sources */,
 				58DAC2761FDE69150078F3B7 /* FloppyDisk.swift in Sources */,
+				58768B9A1FDFAF3100039417 /* Stream.swift in Sources */,
 				58DAC26B1FDE15080078F3B7 /* ApplicationWindow.swift in Sources */,
+				58768B9C1FDFAFF400039417 /* MemoryStream.swift in Sources */,
 				58DAC2671FDA8E5A0078F3B7 /* WindowImp.swift in Sources */,
 				58DAC2741FDE610C0078F3B7 /* Equipment.swift in Sources */,
+				58768B961FDFAD9E00039417 /* ScrollDecorator.swift in Sources */,
 				5813E6691FDA31D500384FFD /* Shape.swift in Sources */,
+				58768BA01FDFB00B00039417 /* StreamDecorator.swift in Sources */,
 				58DAC2801FDE6C180078F3B7 /* Card.swift in Sources */,
 				58DAC2711FDE15D20078F3B7 /* PMWindowImp.swift in Sources */,
 				5813E66D1FDA380B00384FFD /* TextShape.swift in Sources */,
 				58DAC26D1FDE15280078F3B7 /* IconWindow.swift in Sources */,
+				58768BA41FDFB04500039417 /* CompressingStream.swift in Sources */,
+				58768B901FDF850F00039417 /* VisualComponent.swift in Sources */,
 				58DAC27C1FDE6BEA0078F3B7 /* Cabinet.swift in Sources */,
 				5813E66B1FDA367400384FFD /* TextView.swift in Sources */,
 				58DAC27A1FDE6B890078F3B7 /* Chassis.swift in Sources */,
@@ -303,6 +354,10 @@
 				58DAC2841FDE705E0078F3B7 /* Iterator.swift in Sources */,
 				58DAC27E1FDE6BF30078F3B7 /* Bus.swift in Sources */,
 				58DAC26F1FDE15BC0078F3B7 /* XWindowImp.swift in Sources */,
+				58768B921FDF860800039417 /* Decorator.swift in Sources */,
+				58768B9E1FDFAFFF00039417 /* FileStream.swift in Sources */,
+				58768B941FDF86D500039417 /* BorderDecorator.swift in Sources */,
+				58768BA21FDFB02800039417 /* ASCII7Stream.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -311,6 +366,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				58DAC2821FDE6C670078F3B7 /* CompositeTests.swift in Sources */,
+				58768B8E1FDF84B600039417 /* DecoratorTests.swift in Sources */,
 				58DAC2651FDA8E4A0078F3B7 /* BridgeTests.swift in Sources */,
 				5813E65D1FDA318000384FFD /* AdapterTests.swift in Sources */,
 			);
