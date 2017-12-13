@@ -52,6 +52,10 @@
 		58ECC5A01FDFD721009DBA84 /* CodeGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58ECC59F1FDFD721009DBA84 /* CodeGenerator.swift */; };
 		58ECC5A21FDFD780009DBA84 /* StatementNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58ECC5A11FDFD780009DBA84 /* StatementNode.swift */; };
 		58ECC5A41FDFD78B009DBA84 /* ExpressionNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58ECC5A31FDFD78B009DBA84 /* ExpressionNode.swift */; };
+		58ECC5A71FE0C8F3009DBA84 /* Glyph.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58ECC5A61FE0C8F3009DBA84 /* Glyph.swift */; };
+		58ECC5A91FE0CA50009DBA84 /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58ECC5A81FE0CA50009DBA84 /* Character.swift */; };
+		58ECC5AB1FE0CADB009DBA84 /* GlyphFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58ECC5AA1FE0CADB009DBA84 /* GlyphFactory.swift */; };
+		58ECC5AD1FE0D03F009DBA84 /* FlyweightTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58ECC5AC1FE0D03F009DBA84 /* FlyweightTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -113,6 +117,10 @@
 		58ECC59F1FDFD721009DBA84 /* CodeGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeGenerator.swift; sourceTree = "<group>"; };
 		58ECC5A11FDFD780009DBA84 /* StatementNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatementNode.swift; sourceTree = "<group>"; };
 		58ECC5A31FDFD78B009DBA84 /* ExpressionNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpressionNode.swift; sourceTree = "<group>"; };
+		58ECC5A61FE0C8F3009DBA84 /* Glyph.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Glyph.swift; sourceTree = "<group>"; };
+		58ECC5A81FE0CA50009DBA84 /* Character.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
+		58ECC5AA1FE0CADB009DBA84 /* GlyphFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlyphFactory.swift; sourceTree = "<group>"; };
+		58ECC5AC1FE0D03F009DBA84 /* FlyweightTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlyweightTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -161,6 +169,7 @@
 				58DAC2611FDA8E0E0078F3B7 /* Bridge */,
 				58DAC2721FDE60DA0078F3B7 /* Composite */,
 				58768B8C1FDF847D00039417 /* Decorator */,
+				58ECC5A51FE0C87C009DBA84 /* Flyweight */,
 				58ECC5921FDFC296009DBA84 /* Facade */,
 			);
 			path = Structural;
@@ -175,6 +184,7 @@
 				58DAC2811FDE6C670078F3B7 /* CompositeTests.swift */,
 				58768B8D1FDF84B600039417 /* DecoratorTests.swift */,
 				58ECC5951FDFC2FD009DBA84 /* FacadeTests.swift */,
+				58ECC5AC1FE0D03F009DBA84 /* FlyweightTests.swift */,
 			);
 			path = StructuralTests;
 			sourceTree = "<group>";
@@ -250,6 +260,16 @@
 				58ECC59F1FDFD721009DBA84 /* CodeGenerator.swift */,
 			);
 			path = Facade;
+			sourceTree = "<group>";
+		};
+		58ECC5A51FE0C87C009DBA84 /* Flyweight */ = {
+			isa = PBXGroup;
+			children = (
+				58ECC5A61FE0C8F3009DBA84 /* Glyph.swift */,
+				58ECC5A81FE0CA50009DBA84 /* Character.swift */,
+				58ECC5AA1FE0CADB009DBA84 /* GlyphFactory.swift */,
+			);
+			path = Flyweight;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -370,6 +390,7 @@
 				58768B981FDFADBC00039417 /* DropShadowDecorator.swift in Sources */,
 				58DAC2761FDE69150078F3B7 /* FloppyDisk.swift in Sources */,
 				58768B9A1FDFAF3100039417 /* Stream.swift in Sources */,
+				58ECC5A91FE0CA50009DBA84 /* Character.swift in Sources */,
 				58DAC26B1FDE15080078F3B7 /* ApplicationWindow.swift in Sources */,
 				58768B9C1FDFAFF400039417 /* MemoryStream.swift in Sources */,
 				58DAC2671FDA8E5A0078F3B7 /* WindowImp.swift in Sources */,
@@ -382,6 +403,8 @@
 				58768BA01FDFB00B00039417 /* StreamDecorator.swift in Sources */,
 				58DAC2801FDE6C180078F3B7 /* Card.swift in Sources */,
 				58DAC2711FDE15D20078F3B7 /* PMWindowImp.swift in Sources */,
+				58ECC5A71FE0C8F3009DBA84 /* Glyph.swift in Sources */,
+				58ECC5AB1FE0CADB009DBA84 /* GlyphFactory.swift in Sources */,
 				5813E66D1FDA380B00384FFD /* TextShape.swift in Sources */,
 				58DAC26D1FDE15280078F3B7 /* IconWindow.swift in Sources */,
 				58768BA41FDFB04500039417 /* CompressingStream.swift in Sources */,
@@ -411,6 +434,7 @@
 				58DAC2821FDE6C670078F3B7 /* CompositeTests.swift in Sources */,
 				58768B8E1FDF84B600039417 /* DecoratorTests.swift in Sources */,
 				58DAC2651FDA8E4A0078F3B7 /* BridgeTests.swift in Sources */,
+				58ECC5AD1FE0D03F009DBA84 /* FlyweightTests.swift in Sources */,
 				5813E65D1FDA318000384FFD /* AdapterTests.swift in Sources */,
 				58ECC5961FDFC2FD009DBA84 /* FacadeTests.swift in Sources */,
 			);
