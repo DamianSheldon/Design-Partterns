@@ -56,6 +56,11 @@
 		58ECC5A91FE0CA50009DBA84 /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58ECC5A81FE0CA50009DBA84 /* Character.swift */; };
 		58ECC5AB1FE0CADB009DBA84 /* GlyphFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58ECC5AA1FE0CADB009DBA84 /* GlyphFactory.swift */; };
 		58ECC5AD1FE0D03F009DBA84 /* FlyweightTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58ECC5AC1FE0D03F009DBA84 /* FlyweightTests.swift */; };
+		58ECC5B01FE107A3009DBA84 /* ProxyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58ECC5AF1FE107A3009DBA84 /* ProxyTests.swift */; };
+		58ECC5B21FE1080B009DBA84 /* TextDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58ECC5B11FE1080B009DBA84 /* TextDocument.swift */; };
+		58ECC5B41FE1083B009DBA84 /* Graphic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58ECC5B31FE1083B009DBA84 /* Graphic.swift */; };
+		58ECC5B61FE108AC009DBA84 /* Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58ECC5B51FE108AC009DBA84 /* Image.swift */; };
+		58ECC5B81FE108B7009DBA84 /* ImageProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58ECC5B71FE108B7009DBA84 /* ImageProxy.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -121,6 +126,11 @@
 		58ECC5A81FE0CA50009DBA84 /* Character.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
 		58ECC5AA1FE0CADB009DBA84 /* GlyphFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlyphFactory.swift; sourceTree = "<group>"; };
 		58ECC5AC1FE0D03F009DBA84 /* FlyweightTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlyweightTests.swift; sourceTree = "<group>"; };
+		58ECC5AF1FE107A3009DBA84 /* ProxyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProxyTests.swift; sourceTree = "<group>"; };
+		58ECC5B11FE1080B009DBA84 /* TextDocument.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextDocument.swift; sourceTree = "<group>"; };
+		58ECC5B31FE1083B009DBA84 /* Graphic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Graphic.swift; sourceTree = "<group>"; };
+		58ECC5B51FE108AC009DBA84 /* Image.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Image.swift; sourceTree = "<group>"; };
+		58ECC5B71FE108B7009DBA84 /* ImageProxy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageProxy.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -169,8 +179,9 @@
 				58DAC2611FDA8E0E0078F3B7 /* Bridge */,
 				58DAC2721FDE60DA0078F3B7 /* Composite */,
 				58768B8C1FDF847D00039417 /* Decorator */,
-				58ECC5A51FE0C87C009DBA84 /* Flyweight */,
 				58ECC5921FDFC296009DBA84 /* Facade */,
+				58ECC5A51FE0C87C009DBA84 /* Flyweight */,
+				58ECC5AE1FE10718009DBA84 /* Proxy */,
 			);
 			path = Structural;
 			sourceTree = "<group>";
@@ -185,6 +196,7 @@
 				58768B8D1FDF84B600039417 /* DecoratorTests.swift */,
 				58ECC5951FDFC2FD009DBA84 /* FacadeTests.swift */,
 				58ECC5AC1FE0D03F009DBA84 /* FlyweightTests.swift */,
+				58ECC5AF1FE107A3009DBA84 /* ProxyTests.swift */,
 			);
 			path = StructuralTests;
 			sourceTree = "<group>";
@@ -270,6 +282,17 @@
 				58ECC5AA1FE0CADB009DBA84 /* GlyphFactory.swift */,
 			);
 			path = Flyweight;
+			sourceTree = "<group>";
+		};
+		58ECC5AE1FE10718009DBA84 /* Proxy */ = {
+			isa = PBXGroup;
+			children = (
+				58ECC5B11FE1080B009DBA84 /* TextDocument.swift */,
+				58ECC5B51FE108AC009DBA84 /* Image.swift */,
+				58ECC5B71FE108B7009DBA84 /* ImageProxy.swift */,
+				58ECC5B31FE1083B009DBA84 /* Graphic.swift */,
+			);
+			path = Proxy;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -387,15 +410,19 @@
 				58DAC2861FDE74A80078F3B7 /* ListIterator.swift in Sources */,
 				58ECC5A41FDFD78B009DBA84 /* ExpressionNode.swift in Sources */,
 				58ECC5A21FDFD780009DBA84 /* StatementNode.swift in Sources */,
+				58ECC5B81FE108B7009DBA84 /* ImageProxy.swift in Sources */,
 				58768B981FDFADBC00039417 /* DropShadowDecorator.swift in Sources */,
 				58DAC2761FDE69150078F3B7 /* FloppyDisk.swift in Sources */,
 				58768B9A1FDFAF3100039417 /* Stream.swift in Sources */,
+				58ECC5B21FE1080B009DBA84 /* TextDocument.swift in Sources */,
 				58ECC5A91FE0CA50009DBA84 /* Character.swift in Sources */,
+				58ECC5B61FE108AC009DBA84 /* Image.swift in Sources */,
 				58DAC26B1FDE15080078F3B7 /* ApplicationWindow.swift in Sources */,
 				58768B9C1FDFAFF400039417 /* MemoryStream.swift in Sources */,
 				58DAC2671FDA8E5A0078F3B7 /* WindowImp.swift in Sources */,
 				58DAC2741FDE610C0078F3B7 /* Equipment.swift in Sources */,
 				58768B961FDFAD9E00039417 /* ScrollDecorator.swift in Sources */,
+				58ECC5B41FE1083B009DBA84 /* Graphic.swift in Sources */,
 				58ECC59C1FDFD4E2009DBA84 /* ProgramNode.swift in Sources */,
 				5813E6691FDA31D500384FFD /* Shape.swift in Sources */,
 				58ECC5A01FDFD721009DBA84 /* CodeGenerator.swift in Sources */,
@@ -435,6 +462,7 @@
 				58768B8E1FDF84B600039417 /* DecoratorTests.swift in Sources */,
 				58DAC2651FDA8E4A0078F3B7 /* BridgeTests.swift in Sources */,
 				58ECC5AD1FE0D03F009DBA84 /* FlyweightTests.swift in Sources */,
+				58ECC5B01FE107A3009DBA84 /* ProxyTests.swift in Sources */,
 				5813E65D1FDA318000384FFD /* AdapterTests.swift in Sources */,
 				58ECC5961FDFC2FD009DBA84 /* FacadeTests.swift in Sources */,
 			);
