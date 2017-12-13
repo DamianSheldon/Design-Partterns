@@ -43,6 +43,15 @@
 		58DAC2821FDE6C670078F3B7 /* CompositeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58DAC2811FDE6C670078F3B7 /* CompositeTests.swift */; };
 		58DAC2841FDE705E0078F3B7 /* Iterator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58DAC2831FDE705E0078F3B7 /* Iterator.swift */; };
 		58DAC2861FDE74A80078F3B7 /* ListIterator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58DAC2851FDE74A80078F3B7 /* ListIterator.swift */; };
+		58ECC5941FDFC2E6009DBA84 /* Compiler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58ECC5931FDFC2E6009DBA84 /* Compiler.swift */; };
+		58ECC5961FDFC2FD009DBA84 /* FacadeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58ECC5951FDFC2FD009DBA84 /* FacadeTests.swift */; };
+		58ECC5981FDFC9FB009DBA84 /* Scanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58ECC5971FDFC9FB009DBA84 /* Scanner.swift */; };
+		58ECC59A1FDFD3CE009DBA84 /* Parser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58ECC5991FDFD3CE009DBA84 /* Parser.swift */; };
+		58ECC59C1FDFD4E2009DBA84 /* ProgramNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58ECC59B1FDFD4E2009DBA84 /* ProgramNode.swift */; };
+		58ECC59E1FDFD5E6009DBA84 /* ProgramNodeBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58ECC59D1FDFD5E6009DBA84 /* ProgramNodeBuilder.swift */; };
+		58ECC5A01FDFD721009DBA84 /* CodeGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58ECC59F1FDFD721009DBA84 /* CodeGenerator.swift */; };
+		58ECC5A21FDFD780009DBA84 /* StatementNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58ECC5A11FDFD780009DBA84 /* StatementNode.swift */; };
+		58ECC5A41FDFD78B009DBA84 /* ExpressionNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58ECC5A31FDFD78B009DBA84 /* ExpressionNode.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -95,6 +104,15 @@
 		58DAC2811FDE6C670078F3B7 /* CompositeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompositeTests.swift; sourceTree = "<group>"; };
 		58DAC2831FDE705E0078F3B7 /* Iterator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Iterator.swift; sourceTree = "<group>"; };
 		58DAC2851FDE74A80078F3B7 /* ListIterator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListIterator.swift; sourceTree = "<group>"; };
+		58ECC5931FDFC2E6009DBA84 /* Compiler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Compiler.swift; sourceTree = "<group>"; };
+		58ECC5951FDFC2FD009DBA84 /* FacadeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacadeTests.swift; sourceTree = "<group>"; };
+		58ECC5971FDFC9FB009DBA84 /* Scanner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scanner.swift; sourceTree = "<group>"; };
+		58ECC5991FDFD3CE009DBA84 /* Parser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Parser.swift; sourceTree = "<group>"; };
+		58ECC59B1FDFD4E2009DBA84 /* ProgramNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgramNode.swift; sourceTree = "<group>"; };
+		58ECC59D1FDFD5E6009DBA84 /* ProgramNodeBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgramNodeBuilder.swift; sourceTree = "<group>"; };
+		58ECC59F1FDFD721009DBA84 /* CodeGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeGenerator.swift; sourceTree = "<group>"; };
+		58ECC5A11FDFD780009DBA84 /* StatementNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatementNode.swift; sourceTree = "<group>"; };
+		58ECC5A31FDFD78B009DBA84 /* ExpressionNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpressionNode.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -143,6 +161,7 @@
 				58DAC2611FDA8E0E0078F3B7 /* Bridge */,
 				58DAC2721FDE60DA0078F3B7 /* Composite */,
 				58768B8C1FDF847D00039417 /* Decorator */,
+				58ECC5921FDFC296009DBA84 /* Facade */,
 			);
 			path = Structural;
 			sourceTree = "<group>";
@@ -155,6 +174,7 @@
 				58DAC2641FDA8E4A0078F3B7 /* BridgeTests.swift */,
 				58DAC2811FDE6C670078F3B7 /* CompositeTests.swift */,
 				58768B8D1FDF84B600039417 /* DecoratorTests.swift */,
+				58ECC5951FDFC2FD009DBA84 /* FacadeTests.swift */,
 			);
 			path = StructuralTests;
 			sourceTree = "<group>";
@@ -215,6 +235,21 @@
 				58DAC2851FDE74A80078F3B7 /* ListIterator.swift */,
 			);
 			path = Composite;
+			sourceTree = "<group>";
+		};
+		58ECC5921FDFC296009DBA84 /* Facade */ = {
+			isa = PBXGroup;
+			children = (
+				58ECC5931FDFC2E6009DBA84 /* Compiler.swift */,
+				58ECC5971FDFC9FB009DBA84 /* Scanner.swift */,
+				58ECC5991FDFD3CE009DBA84 /* Parser.swift */,
+				58ECC59B1FDFD4E2009DBA84 /* ProgramNode.swift */,
+				58ECC5A11FDFD780009DBA84 /* StatementNode.swift */,
+				58ECC5A31FDFD78B009DBA84 /* ExpressionNode.swift */,
+				58ECC59D1FDFD5E6009DBA84 /* ProgramNodeBuilder.swift */,
+				58ECC59F1FDFD721009DBA84 /* CodeGenerator.swift */,
+			);
+			path = Facade;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -330,6 +365,8 @@
 			files = (
 				58DAC2781FDE695B0078F3B7 /* CompositeEquipment.swift in Sources */,
 				58DAC2861FDE74A80078F3B7 /* ListIterator.swift in Sources */,
+				58ECC5A41FDFD78B009DBA84 /* ExpressionNode.swift in Sources */,
+				58ECC5A21FDFD780009DBA84 /* StatementNode.swift in Sources */,
 				58768B981FDFADBC00039417 /* DropShadowDecorator.swift in Sources */,
 				58DAC2761FDE69150078F3B7 /* FloppyDisk.swift in Sources */,
 				58768B9A1FDFAF3100039417 /* Stream.swift in Sources */,
@@ -338,17 +375,22 @@
 				58DAC2671FDA8E5A0078F3B7 /* WindowImp.swift in Sources */,
 				58DAC2741FDE610C0078F3B7 /* Equipment.swift in Sources */,
 				58768B961FDFAD9E00039417 /* ScrollDecorator.swift in Sources */,
+				58ECC59C1FDFD4E2009DBA84 /* ProgramNode.swift in Sources */,
 				5813E6691FDA31D500384FFD /* Shape.swift in Sources */,
+				58ECC5A01FDFD721009DBA84 /* CodeGenerator.swift in Sources */,
+				58ECC5941FDFC2E6009DBA84 /* Compiler.swift in Sources */,
 				58768BA01FDFB00B00039417 /* StreamDecorator.swift in Sources */,
 				58DAC2801FDE6C180078F3B7 /* Card.swift in Sources */,
 				58DAC2711FDE15D20078F3B7 /* PMWindowImp.swift in Sources */,
 				5813E66D1FDA380B00384FFD /* TextShape.swift in Sources */,
 				58DAC26D1FDE15280078F3B7 /* IconWindow.swift in Sources */,
 				58768BA41FDFB04500039417 /* CompressingStream.swift in Sources */,
+				58ECC5981FDFC9FB009DBA84 /* Scanner.swift in Sources */,
 				58768B901FDF850F00039417 /* VisualComponent.swift in Sources */,
 				58DAC27C1FDE6BEA0078F3B7 /* Cabinet.swift in Sources */,
 				5813E66B1FDA367400384FFD /* TextView.swift in Sources */,
 				58DAC27A1FDE6B890078F3B7 /* Chassis.swift in Sources */,
+				58ECC59A1FDFD3CE009DBA84 /* Parser.swift in Sources */,
 				58DAC2631FDA8E350078F3B7 /* Window.swift in Sources */,
 				58DAC2691FDA8F440078F3B7 /* WindowSystemFactory.swift in Sources */,
 				58DAC2841FDE705E0078F3B7 /* Iterator.swift in Sources */,
@@ -356,6 +398,7 @@
 				58DAC26F1FDE15BC0078F3B7 /* XWindowImp.swift in Sources */,
 				58768B921FDF860800039417 /* Decorator.swift in Sources */,
 				58768B9E1FDFAFFF00039417 /* FileStream.swift in Sources */,
+				58ECC59E1FDFD5E6009DBA84 /* ProgramNodeBuilder.swift in Sources */,
 				58768B941FDF86D500039417 /* BorderDecorator.swift in Sources */,
 				58768BA21FDFB02800039417 /* ASCII7Stream.swift in Sources */,
 			);
@@ -369,6 +412,7 @@
 				58768B8E1FDF84B600039417 /* DecoratorTests.swift in Sources */,
 				58DAC2651FDA8E4A0078F3B7 /* BridgeTests.swift in Sources */,
 				5813E65D1FDA318000384FFD /* AdapterTests.swift in Sources */,
+				58ECC5961FDFC2FD009DBA84 /* FacadeTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
