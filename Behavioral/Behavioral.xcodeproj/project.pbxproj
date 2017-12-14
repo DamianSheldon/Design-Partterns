@@ -20,6 +20,14 @@
 		58ECC5EE1FE222D5009DBA84 /* Document.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58ECC5ED1FE222D5009DBA84 /* Document.swift */; };
 		58ECC5F01FE223ED009DBA84 /* PasteCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58ECC5EF1FE223ED009DBA84 /* PasteCommand.swift */; };
 		58ECC5F21FE224BC009DBA84 /* CommandTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58ECC5F11FE224BC009DBA84 /* CommandTests.swift */; };
+		58ECC5F41FE25DC2009DBA84 /* InterpreterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58ECC5F31FE25DC2009DBA84 /* InterpreterTests.swift */; };
+		58ECC5F71FE2609D009DBA84 /* BooleanExp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58ECC5F61FE2609D009DBA84 /* BooleanExp.swift */; };
+		58ECC5F91FE26167009DBA84 /* Context.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58ECC5F81FE26167009DBA84 /* Context.swift */; };
+		58ECC5FB1FE261F1009DBA84 /* VariableExp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58ECC5FA1FE261F1009DBA84 /* VariableExp.swift */; };
+		58ECC5FD1FE26A38009DBA84 /* AndExp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58ECC5FC1FE26A38009DBA84 /* AndExp.swift */; };
+		58ECC5FF1FE26A40009DBA84 /* OrExp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58ECC5FE1FE26A40009DBA84 /* OrExp.swift */; };
+		58ECC6011FE26A47009DBA84 /* NotExp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58ECC6001FE26A47009DBA84 /* NotExp.swift */; };
+		58ECC6031FE26CAB009DBA84 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58ECC6021FE26CAB009DBA84 /* Constant.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +57,14 @@
 		58ECC5ED1FE222D5009DBA84 /* Document.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Document.swift; sourceTree = "<group>"; };
 		58ECC5EF1FE223ED009DBA84 /* PasteCommand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasteCommand.swift; sourceTree = "<group>"; };
 		58ECC5F11FE224BC009DBA84 /* CommandTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommandTests.swift; sourceTree = "<group>"; };
+		58ECC5F31FE25DC2009DBA84 /* InterpreterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterpreterTests.swift; sourceTree = "<group>"; };
+		58ECC5F61FE2609D009DBA84 /* BooleanExp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BooleanExp.swift; sourceTree = "<group>"; };
+		58ECC5F81FE26167009DBA84 /* Context.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Context.swift; sourceTree = "<group>"; };
+		58ECC5FA1FE261F1009DBA84 /* VariableExp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VariableExp.swift; sourceTree = "<group>"; };
+		58ECC5FC1FE26A38009DBA84 /* AndExp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AndExp.swift; sourceTree = "<group>"; };
+		58ECC5FE1FE26A40009DBA84 /* OrExp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrExp.swift; sourceTree = "<group>"; };
+		58ECC6001FE26A47009DBA84 /* NotExp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotExp.swift; sourceTree = "<group>"; };
+		58ECC6021FE26CAB009DBA84 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +110,7 @@
 				58ECC5C61FE1230C009DBA84 /* Behavioral.h */,
 				58ECC5DD1FE20312009DBA84 /* Chain Of Responsibility */,
 				58ECC5E81FE21D5F009DBA84 /* Command */,
+				58ECC5F51FE2607A009DBA84 /* Interpreter */,
 				58ECC5C71FE1230C009DBA84 /* Info.plist */,
 			);
 			path = Behavioral;
@@ -104,6 +121,7 @@
 			children = (
 				58ECC5D11FE1230C009DBA84 /* ChainOfResponsibilityTests.swift */,
 				58ECC5F11FE224BC009DBA84 /* CommandTests.swift */,
+				58ECC5F31FE25DC2009DBA84 /* InterpreterTests.swift */,
 				58ECC5D31FE1230C009DBA84 /* Info.plist */,
 			);
 			path = BehavioralTests;
@@ -130,6 +148,20 @@
 				58ECC5EF1FE223ED009DBA84 /* PasteCommand.swift */,
 			);
 			path = Command;
+			sourceTree = "<group>";
+		};
+		58ECC5F51FE2607A009DBA84 /* Interpreter */ = {
+			isa = PBXGroup;
+			children = (
+				58ECC5F61FE2609D009DBA84 /* BooleanExp.swift */,
+				58ECC5F81FE26167009DBA84 /* Context.swift */,
+				58ECC5FA1FE261F1009DBA84 /* VariableExp.swift */,
+				58ECC5FC1FE26A38009DBA84 /* AndExp.swift */,
+				58ECC5FE1FE26A40009DBA84 /* OrExp.swift */,
+				58ECC6001FE26A47009DBA84 /* NotExp.swift */,
+				58ECC6021FE26CAB009DBA84 /* Constant.swift */,
+			);
+			path = Interpreter;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -243,14 +275,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				58ECC5F71FE2609D009DBA84 /* BooleanExp.swift in Sources */,
+				58ECC6011FE26A47009DBA84 /* NotExp.swift in Sources */,
 				58ECC5EE1FE222D5009DBA84 /* Document.swift in Sources */,
+				58ECC6031FE26CAB009DBA84 /* Constant.swift in Sources */,
+				58ECC5FF1FE26A40009DBA84 /* OrExp.swift in Sources */,
 				58ECC5F01FE223ED009DBA84 /* PasteCommand.swift in Sources */,
+				58ECC5FB1FE261F1009DBA84 /* VariableExp.swift in Sources */,
 				58ECC5E71FE20C86009DBA84 /* Application.swift in Sources */,
+				58ECC5F91FE26167009DBA84 /* Context.swift in Sources */,
 				58ECC5DF1FE203C0009DBA84 /* HelpHandler.swift in Sources */,
 				58ECC5E31FE20BA8009DBA84 /* Button.swift in Sources */,
 				58ECC5E11FE209F0009DBA84 /* Widget.swift in Sources */,
 				58ECC5EC1FE21E7E009DBA84 /* OpenCommand.swift in Sources */,
 				58ECC5E51FE20BE6009DBA84 /* Dialog.swift in Sources */,
+				58ECC5FD1FE26A38009DBA84 /* AndExp.swift in Sources */,
 				58ECC5EA1FE21DFF009DBA84 /* Command.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -260,6 +299,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				58ECC5D21FE1230C009DBA84 /* ChainOfResponsibilityTests.swift in Sources */,
+				58ECC5F41FE25DC2009DBA84 /* InterpreterTests.swift in Sources */,
 				58ECC5F21FE224BC009DBA84 /* CommandTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
