@@ -22,6 +22,11 @@
 		58DEF8F31FE7540000C0F5AB /* ListBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58DEF8F21FE7540000C0F5AB /* ListBox.swift */; };
 		58DEF8F51FE7543700C0F5AB /* EntryField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58DEF8F41FE7543700C0F5AB /* EntryField.swift */; };
 		58DEF8F71FE7548C00C0F5AB /* FontDialogDirector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58DEF8F61FE7548C00C0F5AB /* FontDialogDirector.swift */; };
+		58DEF8F91FE76F2C00C0F5AB /* MementoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58DEF8F81FE76F2C00C0F5AB /* MementoTests.swift */; };
+		58DEF8FC1FE76FA500C0F5AB /* MoveCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58DEF8FB1FE76FA500C0F5AB /* MoveCommand.swift */; };
+		58DEF8FE1FE7960500C0F5AB /* Graphic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58DEF8FD1FE7960500C0F5AB /* Graphic.swift */; };
+		58DEF9001FE7994900C0F5AB /* ConstraintSolver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58DEF8FF1FE7994900C0F5AB /* ConstraintSolver.swift */; };
+		58DEF9021FE79DA400C0F5AB /* ConstraintMemento.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58DEF9011FE79DA400C0F5AB /* ConstraintMemento.swift */; };
 		58ECC5CD1FE1230C009DBA84 /* Behavioral.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58ECC5C31FE1230B009DBA84 /* Behavioral.framework */; };
 		58ECC5D21FE1230C009DBA84 /* ChainOfResponsibilityTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58ECC5D11FE1230C009DBA84 /* ChainOfResponsibilityTests.swift */; };
 		58ECC5D41FE1230C009DBA84 /* Behavioral.h in Headers */ = {isa = PBXBuildFile; fileRef = 58ECC5C61FE1230C009DBA84 /* Behavioral.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -71,6 +76,11 @@
 		58DEF8F21FE7540000C0F5AB /* ListBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListBox.swift; sourceTree = "<group>"; };
 		58DEF8F41FE7543700C0F5AB /* EntryField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntryField.swift; sourceTree = "<group>"; };
 		58DEF8F61FE7548C00C0F5AB /* FontDialogDirector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontDialogDirector.swift; sourceTree = "<group>"; };
+		58DEF8F81FE76F2C00C0F5AB /* MementoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MementoTests.swift; sourceTree = "<group>"; };
+		58DEF8FB1FE76FA500C0F5AB /* MoveCommand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoveCommand.swift; sourceTree = "<group>"; };
+		58DEF8FD1FE7960500C0F5AB /* Graphic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Graphic.swift; sourceTree = "<group>"; };
+		58DEF8FF1FE7994900C0F5AB /* ConstraintSolver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConstraintSolver.swift; sourceTree = "<group>"; };
+		58DEF9011FE79DA400C0F5AB /* ConstraintMemento.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConstraintMemento.swift; sourceTree = "<group>"; };
 		58ECC5C31FE1230B009DBA84 /* Behavioral.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Behavioral.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		58ECC5C61FE1230C009DBA84 /* Behavioral.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Behavioral.h; sourceTree = "<group>"; };
 		58ECC5C71FE1230C009DBA84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -143,6 +153,17 @@
 			path = Mediator;
 			sourceTree = "<group>";
 		};
+		58DEF8FA1FE76F8800C0F5AB /* Memento */ = {
+			isa = PBXGroup;
+			children = (
+				58DEF8FB1FE76FA500C0F5AB /* MoveCommand.swift */,
+				58DEF8FF1FE7994900C0F5AB /* ConstraintSolver.swift */,
+				58DEF9011FE79DA400C0F5AB /* ConstraintMemento.swift */,
+				58DEF8FD1FE7960500C0F5AB /* Graphic.swift */,
+			);
+			path = Memento;
+			sourceTree = "<group>";
+		};
 		58ECC5B91FE1230B009DBA84 = {
 			isa = PBXGroup;
 			children = (
@@ -170,6 +191,7 @@
 				58ECC5F51FE2607A009DBA84 /* Interpreter */,
 				58DEF8DA1FE372D900C0F5AB /* Iterator */,
 				58DEF8ED1FE7515900C0F5AB /* Mediator */,
+				58DEF8FA1FE76F8800C0F5AB /* Memento */,
 				58ECC5C71FE1230C009DBA84 /* Info.plist */,
 			);
 			path = Behavioral;
@@ -183,6 +205,7 @@
 				58ECC5F31FE25DC2009DBA84 /* InterpreterTests.swift */,
 				58DEF8D81FE3729D00C0F5AB /* IteratorTests.swift */,
 				58DEF8EB1FE7514200C0F5AB /* MediatorTests.swift */,
+				58DEF8F81FE76F2C00C0F5AB /* MementoTests.swift */,
 				58ECC5D31FE1230C009DBA84 /* Info.plist */,
 			);
 			path = BehavioralTests;
@@ -339,6 +362,7 @@
 				58ECC5F71FE2609D009DBA84 /* BooleanExp.swift in Sources */,
 				58DEF8EF1FE7517C00C0F5AB /* DialogDirector.swift in Sources */,
 				58DEF8E01FE3788F00C0F5AB /* ListIterator.swift in Sources */,
+				58DEF9021FE79DA400C0F5AB /* ConstraintMemento.swift in Sources */,
 				58ECC6011FE26A47009DBA84 /* NotExp.swift in Sources */,
 				58ECC5EE1FE222D5009DBA84 /* Document.swift in Sources */,
 				58ECC6031FE26CAB009DBA84 /* Constant.swift in Sources */,
@@ -350,8 +374,10 @@
 				58ECC5F91FE26167009DBA84 /* Context.swift in Sources */,
 				58DEF8E41FE3B15100C0F5AB /* Employee.swift in Sources */,
 				58ECC5DF1FE203C0009DBA84 /* HelpHandler.swift in Sources */,
+				58DEF8FE1FE7960500C0F5AB /* Graphic.swift in Sources */,
 				58DEF8DC1FE3764E00C0F5AB /* AbstractList.swift in Sources */,
 				58ECC5E31FE20BA8009DBA84 /* Button.swift in Sources */,
+				58DEF9001FE7994900C0F5AB /* ConstraintSolver.swift in Sources */,
 				58DEF8E81FE3BAA600C0F5AB /* ListTraverser.swift in Sources */,
 				58DEF8E21FE37B6A00C0F5AB /* List.swift in Sources */,
 				58ECC5E11FE209F0009DBA84 /* Widget.swift in Sources */,
@@ -364,6 +390,7 @@
 				58DEF8F71FE7548C00C0F5AB /* FontDialogDirector.swift in Sources */,
 				58DEF8EA1FE3BE4600C0F5AB /* PrintNEmployees.swift in Sources */,
 				58DEF8F31FE7540000C0F5AB /* ListBox.swift in Sources */,
+				58DEF8FC1FE76FA500C0F5AB /* MoveCommand.swift in Sources */,
 				58ECC5EA1FE21DFF009DBA84 /* Command.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -373,6 +400,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				58ECC5D21FE1230C009DBA84 /* ChainOfResponsibilityTests.swift in Sources */,
+				58DEF8F91FE76F2C00C0F5AB /* MementoTests.swift in Sources */,
 				58DEF8EC1FE7514200C0F5AB /* MediatorTests.swift in Sources */,
 				58ECC5F41FE25DC2009DBA84 /* InterpreterTests.swift in Sources */,
 				58ECC5F21FE224BC009DBA84 /* CommandTests.swift in Sources */,

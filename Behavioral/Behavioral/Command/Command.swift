@@ -14,4 +14,8 @@ open class Command {
     open func execute() -> Void {
         
     }
+    
+    open func unexecute() -> Void {
+        
+    }
 }
