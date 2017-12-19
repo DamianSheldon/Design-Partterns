@@ -9,10 +9,6 @@
 open class OpenCommand: Command {
     private var _fileName: String
     
-    public override init() {
-        fatalError("Must init with init(fileName:)")
-    }
-    
     public init(fileName: String) {
         _fileName = fileName
     }

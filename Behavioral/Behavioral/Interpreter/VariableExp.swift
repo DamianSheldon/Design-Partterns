@@ -9,10 +9,6 @@
 open class VariableExp: BooleanExp {
     open var name: String
     
-    public override init() {
-        fatalError("Must init with init(name:)")
-    }
-    
     public init(name: String) {
         self.name = name
         

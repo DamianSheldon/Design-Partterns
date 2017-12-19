@@ -10,10 +10,6 @@ open class OrExp: BooleanExp {
     private var _operand1: BooleanExp
     private var _operand2: BooleanExp
     
-    public override init() {
-        fatalError("Must init with init(op1: op2:)")
-    }
-    
     public init(op1: BooleanExp, op2: BooleanExp) {
         _operand1 = op1
         _operand2 = op2

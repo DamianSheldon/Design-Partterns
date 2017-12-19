@@ -9,10 +9,6 @@
 open class List<Item: Equatable>: AbstractList<Item> {
     private var _items: [Item]
     
-    public override init() {
-        fatalError("Must init with init(_:)")
-    }
-    
     public init(_ items: [Item]) {
         _items = items
         

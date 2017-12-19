@@ -7,9 +7,6 @@
 //
 
 open class Application: HelpHandler {
-    public override init(successor: HelpHandler?, topic: Topic) {
-        fatalError("Init Application with init(topic:)")
-    }
     
     public init(topic: Topic) {
         super.init(successor: nil, topic: topic)

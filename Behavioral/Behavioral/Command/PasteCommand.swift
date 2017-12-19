@@ -9,10 +9,6 @@
 open class PasteCommand: Command {
     private var _doc: Document
     
-    public override init() {
-        fatalError("Must instance with init(document:)")
-    }
-    
     public init(document: Document) {
         _doc = document
         

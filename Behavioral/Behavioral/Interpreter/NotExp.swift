@@ -9,10 +9,6 @@
 open class NotExp: BooleanExp {
     private var _operand1: BooleanExp
     
-    public override init() {
-        fatalError("Must init with init(op1:)")
-    }
-    
     public init(op1: BooleanExp) {
         _operand1 = op1
         

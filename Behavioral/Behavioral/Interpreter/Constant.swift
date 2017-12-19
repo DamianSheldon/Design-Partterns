@@ -9,10 +9,6 @@
 open class Constant: BooleanExp {
     private var _value: Bool
     
-    public override init() {
-        fatalError("Must init with init(withValue:)")
-    }
-    
     public init(withValue value: Bool) {
         _value = value
         
