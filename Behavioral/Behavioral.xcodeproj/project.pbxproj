@@ -39,6 +39,12 @@
 		58DEF9181FE901DC00C0F5AB /* TCPEstablished.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58DEF9171FE901DC00C0F5AB /* TCPEstablished.swift */; };
 		58DEF91A1FE901E900C0F5AB /* TCPListen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58DEF9191FE901E900C0F5AB /* TCPListen.swift */; };
 		58DEF91C1FE901F000C0F5AB /* TCPClosed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58DEF91B1FE901F000C0F5AB /* TCPClosed.swift */; };
+		58DEF91E1FE90ED100C0F5AB /* StrategyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58DEF91D1FE90ED100C0F5AB /* StrategyTests.swift */; };
+		58DEF9211FE90F2100C0F5AB /* Composition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58DEF9201FE90F2100C0F5AB /* Composition.swift */; };
+		58DEF9231FE90F2C00C0F5AB /* Compositor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58DEF9221FE90F2C00C0F5AB /* Compositor.swift */; };
+		58DEF9251FE9101700C0F5AB /* SimpleCompositor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58DEF9241FE9101700C0F5AB /* SimpleCompositor.swift */; };
+		58DEF9271FE9102000C0F5AB /* TexCompositor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58DEF9261FE9102000C0F5AB /* TexCompositor.swift */; };
+		58DEF9291FE9102900C0F5AB /* ArrayCompositor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58DEF9281FE9102900C0F5AB /* ArrayCompositor.swift */; };
 		58ECC5CD1FE1230C009DBA84 /* Behavioral.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58ECC5C31FE1230B009DBA84 /* Behavioral.framework */; };
 		58ECC5D21FE1230C009DBA84 /* ChainOfResponsibilityTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58ECC5D11FE1230C009DBA84 /* ChainOfResponsibilityTests.swift */; };
 		58ECC5D41FE1230C009DBA84 /* Behavioral.h in Headers */ = {isa = PBXBuildFile; fileRef = 58ECC5C61FE1230C009DBA84 /* Behavioral.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -105,6 +111,12 @@
 		58DEF9171FE901DC00C0F5AB /* TCPEstablished.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TCPEstablished.swift; sourceTree = "<group>"; };
 		58DEF9191FE901E900C0F5AB /* TCPListen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TCPListen.swift; sourceTree = "<group>"; };
 		58DEF91B1FE901F000C0F5AB /* TCPClosed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TCPClosed.swift; sourceTree = "<group>"; };
+		58DEF91D1FE90ED100C0F5AB /* StrategyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrategyTests.swift; sourceTree = "<group>"; };
+		58DEF9201FE90F2100C0F5AB /* Composition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Composition.swift; sourceTree = "<group>"; };
+		58DEF9221FE90F2C00C0F5AB /* Compositor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Compositor.swift; sourceTree = "<group>"; };
+		58DEF9241FE9101700C0F5AB /* SimpleCompositor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleCompositor.swift; sourceTree = "<group>"; };
+		58DEF9261FE9102000C0F5AB /* TexCompositor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TexCompositor.swift; sourceTree = "<group>"; };
+		58DEF9281FE9102900C0F5AB /* ArrayCompositor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrayCompositor.swift; sourceTree = "<group>"; };
 		58ECC5C31FE1230B009DBA84 /* Behavioral.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Behavioral.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		58ECC5C61FE1230C009DBA84 /* Behavioral.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Behavioral.h; sourceTree = "<group>"; };
 		58ECC5C71FE1230C009DBA84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -212,6 +224,18 @@
 			path = State;
 			sourceTree = "<group>";
 		};
+		58DEF91F1FE90EF800C0F5AB /* Strategy */ = {
+			isa = PBXGroup;
+			children = (
+				58DEF9201FE90F2100C0F5AB /* Composition.swift */,
+				58DEF9221FE90F2C00C0F5AB /* Compositor.swift */,
+				58DEF9241FE9101700C0F5AB /* SimpleCompositor.swift */,
+				58DEF9261FE9102000C0F5AB /* TexCompositor.swift */,
+				58DEF9281FE9102900C0F5AB /* ArrayCompositor.swift */,
+			);
+			path = Strategy;
+			sourceTree = "<group>";
+		};
 		58ECC5B91FE1230B009DBA84 = {
 			isa = PBXGroup;
 			children = (
@@ -242,6 +266,7 @@
 				58DEF8FA1FE76F8800C0F5AB /* Memento */,
 				58DEF9051FE7B72400C0F5AB /* Observer */,
 				58DEF9101FE8FA0C00C0F5AB /* State */,
+				58DEF91F1FE90EF800C0F5AB /* Strategy */,
 				58ECC5C71FE1230C009DBA84 /* Info.plist */,
 			);
 			path = Behavioral;
@@ -258,6 +283,7 @@
 				58DEF8F81FE76F2C00C0F5AB /* MementoTests.swift */,
 				58DEF9031FE7B6FA00C0F5AB /* ObserverTests.swift */,
 				58DEF9131FE8FC4100C0F5AB /* StateTests.swift */,
+				58DEF91D1FE90ED100C0F5AB /* StrategyTests.swift */,
 				58ECC5D31FE1230C009DBA84 /* Info.plist */,
 			);
 			path = BehavioralTests;
@@ -413,14 +439,17 @@
 			files = (
 				58DEF91A1FE901E900C0F5AB /* TCPListen.swift in Sources */,
 				58ECC5F71FE2609D009DBA84 /* BooleanExp.swift in Sources */,
+				58DEF9231FE90F2C00C0F5AB /* Compositor.swift in Sources */,
 				58DEF9161FE8FD9600C0F5AB /* TCPState.swift in Sources */,
 				58DEF8EF1FE7517C00C0F5AB /* DialogDirector.swift in Sources */,
 				58DEF8E01FE3788F00C0F5AB /* ListIterator.swift in Sources */,
 				58DEF9021FE79DA400C0F5AB /* ConstraintMemento.swift in Sources */,
 				58ECC6011FE26A47009DBA84 /* NotExp.swift in Sources */,
 				58ECC5EE1FE222D5009DBA84 /* Document.swift in Sources */,
+				58DEF9211FE90F2100C0F5AB /* Composition.swift in Sources */,
 				58ECC6031FE26CAB009DBA84 /* Constant.swift in Sources */,
 				58ECC5FF1FE26A40009DBA84 /* OrExp.swift in Sources */,
+				58DEF9251FE9101700C0F5AB /* SimpleCompositor.swift in Sources */,
 				58DEF90B1FE8B08700C0F5AB /* ClockTimer.swift in Sources */,
 				58DEF8F51FE7543700C0F5AB /* EntryField.swift in Sources */,
 				58ECC5F01FE223ED009DBA84 /* PasteCommand.swift in Sources */,
@@ -437,6 +466,7 @@
 				58DEF9001FE7994900C0F5AB /* ConstraintSolver.swift in Sources */,
 				58DEF90F1FE8B13D00C0F5AB /* AnalogClock.swift in Sources */,
 				58DEF8E81FE3BAA600C0F5AB /* ListTraverser.swift in Sources */,
+				58DEF9271FE9102000C0F5AB /* TexCompositor.swift in Sources */,
 				58DEF8E21FE37B6A00C0F5AB /* List.swift in Sources */,
 				58ECC5E11FE209F0009DBA84 /* Widget.swift in Sources */,
 				58DEF9121FE8FA4200C0F5AB /* TCPConnection.swift in Sources */,
@@ -453,6 +483,7 @@
 				58DEF8F31FE7540000C0F5AB /* ListBox.swift in Sources */,
 				58DEF8FC1FE76FA500C0F5AB /* MoveCommand.swift in Sources */,
 				58DEF9071FE7B74100C0F5AB /* Subject.swift in Sources */,
+				58DEF9291FE9102900C0F5AB /* ArrayCompositor.swift in Sources */,
 				58ECC5EA1FE21DFF009DBA84 /* Command.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -464,6 +495,7 @@
 				58ECC5D21FE1230C009DBA84 /* ChainOfResponsibilityTests.swift in Sources */,
 				58DEF9041FE7B6FA00C0F5AB /* ObserverTests.swift in Sources */,
 				58DEF8F91FE76F2C00C0F5AB /* MementoTests.swift in Sources */,
+				58DEF91E1FE90ED100C0F5AB /* StrategyTests.swift in Sources */,
 				58DEF8EC1FE7514200C0F5AB /* MediatorTests.swift in Sources */,
 				58ECC5F41FE25DC2009DBA84 /* InterpreterTests.swift in Sources */,
 				58ECC5F21FE224BC009DBA84 /* CommandTests.swift in Sources */,
