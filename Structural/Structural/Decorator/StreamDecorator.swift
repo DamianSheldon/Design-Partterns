@@ -9,10 +9,6 @@
 open class StreamDecorator: Stream {
     private var _stream: Stream
     
-    public override convenience init() {
-        fatalError("Must init with stream!")
-    }
-    
     public init(stream: Stream) {
         _stream = stream
         

@@ -7,9 +7,6 @@
 //
 
 open class Image: Graphic {
-    public override init() {
-        fatalError("Must init with image")
-    }
     
     public init(fileName: String) {
         

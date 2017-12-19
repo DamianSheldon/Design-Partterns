@@ -9,10 +9,6 @@
 open class TextShape: Shape {
     private var textView: TextView
     
-    override init() {
-        fatalError("Must init with text view!")
-    }
-    
     public init(textView: TextView) {
         self.textView = textView
         

@@ -11,10 +11,6 @@ open class ImageProxy: Graphic {
     
     private lazy var _realImage = Image(fileName: imageFileName)
     
-    public override init() {
-        fatalError("Must init with image")
-    }
-    
     public init(fileName: String) {
         imageFileName = fileName
     }
