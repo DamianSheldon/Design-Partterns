@@ -6,12 +6,12 @@
 //  Copyright © 2017 Meiliang Dong. All rights reserved.
 //
 
-open class ListIterator<Item>: Iterator<Item> {
+open class ListIterator<Item: Equatable>: Iterator<Item> {
 
     private var _list: List<Item>
     private var _current = 0
     
-    init(_ list: List<Item>) {
+    public init(_ list: List<Item>) {
         _list = list
     }
     

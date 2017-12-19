@@ -6,7 +6,7 @@
 //  Copyright © 2017 Meiliang Dong. All rights reserved.
 //
 
-open class ReverseListIterator<Item>: Iterator<Item> {
+open class ReverseListIterator<Item>: Iterator<Item> where Item: Equatable {
     
     private var _list: List<Item>
     private var _current = 0

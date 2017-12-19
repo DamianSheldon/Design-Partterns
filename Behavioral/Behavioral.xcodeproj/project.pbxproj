@@ -27,6 +27,12 @@
 		58DEF8FE1FE7960500C0F5AB /* Graphic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58DEF8FD1FE7960500C0F5AB /* Graphic.swift */; };
 		58DEF9001FE7994900C0F5AB /* ConstraintSolver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58DEF8FF1FE7994900C0F5AB /* ConstraintSolver.swift */; };
 		58DEF9021FE79DA400C0F5AB /* ConstraintMemento.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58DEF9011FE79DA400C0F5AB /* ConstraintMemento.swift */; };
+		58DEF9041FE7B6FA00C0F5AB /* ObserverTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58DEF9031FE7B6FA00C0F5AB /* ObserverTests.swift */; };
+		58DEF9071FE7B74100C0F5AB /* Subject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58DEF9061FE7B74100C0F5AB /* Subject.swift */; };
+		58DEF9091FE7B76400C0F5AB /* Observer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58DEF9081FE7B76400C0F5AB /* Observer.swift */; };
+		58DEF90B1FE8B08700C0F5AB /* ClockTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58DEF90A1FE8B08700C0F5AB /* ClockTimer.swift */; };
+		58DEF90D1FE8B11500C0F5AB /* DigitalClock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58DEF90C1FE8B11500C0F5AB /* DigitalClock.swift */; };
+		58DEF90F1FE8B13D00C0F5AB /* AnalogClock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58DEF90E1FE8B13D00C0F5AB /* AnalogClock.swift */; };
 		58ECC5CD1FE1230C009DBA84 /* Behavioral.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58ECC5C31FE1230B009DBA84 /* Behavioral.framework */; };
 		58ECC5D21FE1230C009DBA84 /* ChainOfResponsibilityTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58ECC5D11FE1230C009DBA84 /* ChainOfResponsibilityTests.swift */; };
 		58ECC5D41FE1230C009DBA84 /* Behavioral.h in Headers */ = {isa = PBXBuildFile; fileRef = 58ECC5C61FE1230C009DBA84 /* Behavioral.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -81,6 +87,12 @@
 		58DEF8FD1FE7960500C0F5AB /* Graphic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Graphic.swift; sourceTree = "<group>"; };
 		58DEF8FF1FE7994900C0F5AB /* ConstraintSolver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConstraintSolver.swift; sourceTree = "<group>"; };
 		58DEF9011FE79DA400C0F5AB /* ConstraintMemento.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConstraintMemento.swift; sourceTree = "<group>"; };
+		58DEF9031FE7B6FA00C0F5AB /* ObserverTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObserverTests.swift; sourceTree = "<group>"; };
+		58DEF9061FE7B74100C0F5AB /* Subject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Subject.swift; sourceTree = "<group>"; };
+		58DEF9081FE7B76400C0F5AB /* Observer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Observer.swift; sourceTree = "<group>"; };
+		58DEF90A1FE8B08700C0F5AB /* ClockTimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClockTimer.swift; sourceTree = "<group>"; };
+		58DEF90C1FE8B11500C0F5AB /* DigitalClock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DigitalClock.swift; sourceTree = "<group>"; };
+		58DEF90E1FE8B13D00C0F5AB /* AnalogClock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalogClock.swift; sourceTree = "<group>"; };
 		58ECC5C31FE1230B009DBA84 /* Behavioral.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Behavioral.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		58ECC5C61FE1230C009DBA84 /* Behavioral.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Behavioral.h; sourceTree = "<group>"; };
 		58ECC5C71FE1230C009DBA84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -164,6 +176,18 @@
 			path = Memento;
 			sourceTree = "<group>";
 		};
+		58DEF9051FE7B72400C0F5AB /* Observer */ = {
+			isa = PBXGroup;
+			children = (
+				58DEF9061FE7B74100C0F5AB /* Subject.swift */,
+				58DEF90A1FE8B08700C0F5AB /* ClockTimer.swift */,
+				58DEF90C1FE8B11500C0F5AB /* DigitalClock.swift */,
+				58DEF90E1FE8B13D00C0F5AB /* AnalogClock.swift */,
+				58DEF9081FE7B76400C0F5AB /* Observer.swift */,
+			);
+			path = Observer;
+			sourceTree = "<group>";
+		};
 		58ECC5B91FE1230B009DBA84 = {
 			isa = PBXGroup;
 			children = (
@@ -192,6 +216,7 @@
 				58DEF8DA1FE372D900C0F5AB /* Iterator */,
 				58DEF8ED1FE7515900C0F5AB /* Mediator */,
 				58DEF8FA1FE76F8800C0F5AB /* Memento */,
+				58DEF9051FE7B72400C0F5AB /* Observer */,
 				58ECC5C71FE1230C009DBA84 /* Info.plist */,
 			);
 			path = Behavioral;
@@ -206,6 +231,7 @@
 				58DEF8D81FE3729D00C0F5AB /* IteratorTests.swift */,
 				58DEF8EB1FE7514200C0F5AB /* MediatorTests.swift */,
 				58DEF8F81FE76F2C00C0F5AB /* MementoTests.swift */,
+				58DEF9031FE7B6FA00C0F5AB /* ObserverTests.swift */,
 				58ECC5D31FE1230C009DBA84 /* Info.plist */,
 			);
 			path = BehavioralTests;
@@ -367,6 +393,7 @@
 				58ECC5EE1FE222D5009DBA84 /* Document.swift in Sources */,
 				58ECC6031FE26CAB009DBA84 /* Constant.swift in Sources */,
 				58ECC5FF1FE26A40009DBA84 /* OrExp.swift in Sources */,
+				58DEF90B1FE8B08700C0F5AB /* ClockTimer.swift in Sources */,
 				58DEF8F51FE7543700C0F5AB /* EntryField.swift in Sources */,
 				58ECC5F01FE223ED009DBA84 /* PasteCommand.swift in Sources */,
 				58ECC5FB1FE261F1009DBA84 /* VariableExp.swift in Sources */,
@@ -378,6 +405,7 @@
 				58DEF8DC1FE3764E00C0F5AB /* AbstractList.swift in Sources */,
 				58ECC5E31FE20BA8009DBA84 /* Button.swift in Sources */,
 				58DEF9001FE7994900C0F5AB /* ConstraintSolver.swift in Sources */,
+				58DEF90F1FE8B13D00C0F5AB /* AnalogClock.swift in Sources */,
 				58DEF8E81FE3BAA600C0F5AB /* ListTraverser.swift in Sources */,
 				58DEF8E21FE37B6A00C0F5AB /* List.swift in Sources */,
 				58ECC5E11FE209F0009DBA84 /* Widget.swift in Sources */,
@@ -385,12 +413,15 @@
 				58ECC5EC1FE21E7E009DBA84 /* OpenCommand.swift in Sources */,
 				58ECC5E51FE20BE6009DBA84 /* Dialog.swift in Sources */,
 				58DEF8DE1FE376A300C0F5AB /* Iterator.swift in Sources */,
+				58DEF9091FE7B76400C0F5AB /* Observer.swift in Sources */,
+				58DEF90D1FE8B11500C0F5AB /* DigitalClock.swift in Sources */,
 				58ECC5FD1FE26A38009DBA84 /* AndExp.swift in Sources */,
 				58DEF8F11FE7522800C0F5AB /* Control.swift in Sources */,
 				58DEF8F71FE7548C00C0F5AB /* FontDialogDirector.swift in Sources */,
 				58DEF8EA1FE3BE4600C0F5AB /* PrintNEmployees.swift in Sources */,
 				58DEF8F31FE7540000C0F5AB /* ListBox.swift in Sources */,
 				58DEF8FC1FE76FA500C0F5AB /* MoveCommand.swift in Sources */,
+				58DEF9071FE7B74100C0F5AB /* Subject.swift in Sources */,
 				58ECC5EA1FE21DFF009DBA84 /* Command.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -400,6 +431,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				58ECC5D21FE1230C009DBA84 /* ChainOfResponsibilityTests.swift in Sources */,
+				58DEF9041FE7B6FA00C0F5AB /* ObserverTests.swift in Sources */,
 				58DEF8F91FE76F2C00C0F5AB /* MementoTests.swift in Sources */,
 				58DEF8EC1FE7514200C0F5AB /* MediatorTests.swift in Sources */,
 				58ECC5F41FE25DC2009DBA84 /* InterpreterTests.swift in Sources */,

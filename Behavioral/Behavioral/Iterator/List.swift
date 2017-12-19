@@ -6,7 +6,7 @@
 //  Copyright © 2017 Meiliang Dong. All rights reserved.
 //
 
-open class List<Item>: AbstractList<Item> {
+open class List<Item: Equatable>: AbstractList<Item> {
     private var _items: [Item]
     
     public override init() {
@@ -18,6 +18,7 @@ open class List<Item>: AbstractList<Item> {
         
         super.init()
     }
+    
     open override func createIterator() -> Iterator<Item> {
         return ListIterator(self)
     }
@@ -35,6 +36,8 @@ open class List<Item>: AbstractList<Item> {
     }
     
     open override func remove(_ item: Item) {
-        
+        if let i = _items.index(where:  {(e: Item) in return e == item }) {
+            _items.remove(at: i)
+        }
     }
 }

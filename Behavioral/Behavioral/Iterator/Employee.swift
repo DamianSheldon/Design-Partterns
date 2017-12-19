@@ -6,7 +6,7 @@
 //  Copyright © 2017 Meiliang Dong. All rights reserved.
 //
 
-open class Employee {
+open class Employee: Equatable {
     private var _name: String
     
     public init(_ name: String) {
@@ -15,5 +15,9 @@ open class Employee {
     
     open func print() -> Void {
         Swift.print("\(_name)\n")
+    }
+    
+    public static func ==(lhs: Employee, rhs: Employee) -> Bool {
+        return lhs === rhs
     }
 }

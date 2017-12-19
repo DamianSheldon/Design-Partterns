@@ -6,7 +6,7 @@
 //  Copyright © 2017 Meiliang Dong. All rights reserved.
 //
 
-open class ListTraverser<Item> {
+open class ListTraverser<Item> where Item: Equatable {
     private var _list: List<Item>
     
     private lazy var _iterator = ListIterator(_list)
