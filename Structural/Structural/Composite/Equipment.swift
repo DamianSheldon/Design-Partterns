@@ -34,4 +34,8 @@ open class Equipment {
     open func createIterator() -> Iterator<Equipment> {
         return _iterator
     }
+    
+    open func accept(_ visitor: EquipmentVisitor) -> Void {
+        
+    }
 }

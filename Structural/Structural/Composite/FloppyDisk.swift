@@ -7,5 +7,7 @@
 //
 
 open class FloppyDisk: Equipment {
-
+    open override func accept(_ visitor: EquipmentVisitor) {
+        visitor.visitFloppyDisk(self)
+    }
 }

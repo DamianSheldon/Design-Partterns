@@ -7,5 +7,7 @@
 //
 
 open class Card: Equipment {
-
+    open override func accept(_ visitor: EquipmentVisitor) {
+        visitor.visitCard(self)
+    }
 }

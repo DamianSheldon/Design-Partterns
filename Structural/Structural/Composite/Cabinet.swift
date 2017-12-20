@@ -7,5 +7,14 @@
 //
 
 open class Cabinet: CompositeEquipment {
-
+    open override func accept(_ visitor: EquipmentVisitor) {
+        let iterator = createIterator()
+        iterator.first()
+        while !iterator.isDone() {
+            iterator.currentItem()?.accept(visitor)
+            iterator.next()
+        }
+        
+        visitor.visitCabinet(self)
+    }
 }
